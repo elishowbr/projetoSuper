@@ -90,7 +90,7 @@ body {
         margin-bottom: 1.5rem;
         font-size: 1.5rem;
 
-        & a:first-of-type {
+        & a {
           text-decoration: none;
           font-weight: 600;
           letter-spacing: 1px;
@@ -99,7 +99,7 @@ body {
           line-height: 1.2;
         }
 
-        & a:first-of-type:hover {
+        & a:hover {
             text-decoration: underline;
         }
       }
@@ -109,7 +109,6 @@ body {
         height: fit-content;
         display: grid;
         gap: 0.5rem;
-        grid-template-rows: 100px;
 
         & .musica {
           display: flex;
