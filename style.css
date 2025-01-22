@@ -28,6 +28,9 @@ body {
   width: 90%;
   height: 45rem;
   background-color: rgb(30, 29, 33);
+  background-image: url('./fundo.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
   padding: 2rem;
   display: flex;
   flex-flow: column;
@@ -49,6 +52,7 @@ body {
       min-height: fit-content;
       border-radius: 10px;
       background-color: rgb(63, 63, 75);
+      box-shadow: 0px 0px 4px black;
 
       & > img {
         width: 100%;
@@ -79,6 +83,8 @@ body {
       padding: 1rem;
       border-radius: 10px;
       background-color: #1c2429;
+      box-shadow: 0px 0px 4px black;
+
 
       & .guiasAlbuns {
         width: 100%;
@@ -115,6 +121,7 @@ body {
           width: 100%;
           align-items: center;
           gap: 0.5rem;
+          transition: 0.3s ease-in-out;
           color: #fff;
 
           & a {
@@ -139,6 +146,12 @@ body {
             font-size: 0.8rem;
           }
         }
+
+        & .musica:hover {
+          transform: scale(1.03);
+          cursor: pointer;
+        }
+
       }
     }
   }
